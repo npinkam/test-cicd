@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: test-cicd
-  namespace: default
   labels:
     app: test-cicd
 spec:
